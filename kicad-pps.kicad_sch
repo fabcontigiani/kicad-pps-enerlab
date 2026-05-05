@@ -6100,12 +6100,6 @@
 		(uuid "5c2b5be6-9503-429a-89b6-20541c3e0605")
 	)
 	(junction
-		(at 342.9 142.24)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6049cc1a-d524-4a16-a958-bda04da58ced")
-	)
-	(junction
 		(at 102.87 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6164,6 +6158,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9c787eb8-e53f-457f-9fd6-4e3b27a1bc5c")
+	)
+	(junction
+		(at 347.98 158.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a092c3a6-a0e0-4b82-a383-8de210faeb7b")
 	)
 	(junction
 		(at 327.66 153.67)
@@ -6232,12 +6232,6 @@
 		(uuid "d12b9566-43a1-445b-9f92-d18fa200cc19")
 	)
 	(junction
-		(at 347.98 158.75)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "dfb4dea6-ac4c-4e89-9a0f-9e675d3bf988")
-	)
-	(junction
 		(at 213.36 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6250,10 +6244,10 @@
 		(uuid "e2fec710-1d61-4e0b-9f99-d65156a7702a")
 	)
 	(junction
-		(at 151.13 172.72)
+		(at 342.9 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e7f8de18-2b6c-4865-be0e-dcd9a7e545c7")
+		(uuid "e9c62f8c-402a-481b-a7d7-c23361a95016")
 	)
 	(junction
 		(at 313.69 214.63)
@@ -6334,6 +6328,10 @@
 		(uuid "509e81ef-4822-4b1b-ab6a-99ef90cfe673")
 	)
 	(no_connect
+		(at 139.7 252.73)
+		(uuid "6f762a75-f767-4ded-9a5d-06faf728e8cb")
+	)
+	(no_connect
 		(at 92.71 219.71)
 		(uuid "70c4b1c1-15ea-4f85-b825-5caec6f571a5")
 	)
@@ -6385,16 +6383,6 @@
 	)
 	(wire
 		(pts
-			(xy 342.9 142.24) (xy 347.98 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "017fec05-d663-4d99-8237-f50bf582cccf")
-	)
-	(wire
-		(pts
 			(xy 111.76 222.25) (xy 120.65 222.25)
 		)
 		(stroke
@@ -6412,6 +6400,16 @@
 			(type default)
 		)
 		(uuid "0434c28b-3580-4d89-8863-72081f1d1a2a")
+	)
+	(wire
+		(pts
+			(xy 342.9 142.24) (xy 342.9 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "049fca35-361d-420f-bfe7-d73dabab102a")
 	)
 	(wire
 		(pts
@@ -6735,7 +6733,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 172.72) (xy 151.13 177.8)
+			(xy 151.13 170.18) (xy 151.13 177.8)
 		)
 		(stroke
 			(width 0)
@@ -7185,6 +7183,16 @@
 	)
 	(wire
 		(pts
+			(xy 347.98 142.24) (xy 345.44 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62bfcd1f-9666-4405-9109-170a442ef4cf")
+	)
+	(wire
+		(pts
 			(xy 170.18 83.82) (xy 162.56 83.82)
 		)
 		(stroke
@@ -7305,6 +7313,16 @@
 	)
 	(wire
 		(pts
+			(xy 347.98 154.94) (xy 347.98 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69dc723a-495c-4764-a978-cbfec62b6e0a")
+	)
+	(wire
+		(pts
 			(xy 327.66 95.25) (xy 327.66 106.68)
 		)
 		(stroke
@@ -7372,16 +7390,6 @@
 			(type default)
 		)
 		(uuid "6f4992fb-8bfd-4eac-8eae-23046f8607ec")
-	)
-	(wire
-		(pts
-			(xy 151.13 170.18) (xy 151.13 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "714f7697-1a20-4c2d-88cf-54f95c632088")
 	)
 	(wire
 		(pts
@@ -7455,16 +7463,6 @@
 	)
 	(wire
 		(pts
-			(xy 347.98 147.32) (xy 347.98 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7bd00b0e-ad08-40ff-83aa-b6f2a26e8533")
-	)
-	(wire
-		(pts
 			(xy 234.95 76.2) (xy 231.14 76.2)
 		)
 		(stroke
@@ -7502,6 +7500,16 @@
 			(type default)
 		)
 		(uuid "80001ca7-c8cd-4a09-a6a0-3ae471b839e5")
+	)
+	(wire
+		(pts
+			(xy 345.44 154.94) (xy 347.98 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "856f3cc9-3db5-4df4-bb34-c9886b1e4e88")
 	)
 	(wire
 		(pts
@@ -7722,16 +7730,6 @@
 			(type default)
 		)
 		(uuid "aafac2f7-5c0e-4e4d-81b9-15bc5a011941")
-	)
-	(wire
-		(pts
-			(xy 139.7 252.73) (xy 142.24 252.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aeeb6680-04ef-4389-bbce-46b000e47b88")
 	)
 	(wire
 		(pts
@@ -8035,6 +8033,16 @@
 	)
 	(wire
 		(pts
+			(xy 347.98 147.32) (xy 342.9 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9efafd1-cd87-4814-b2e4-d6d54d03b1d6")
+	)
+	(wire
+		(pts
 			(xy 318.77 106.68) (xy 327.66 106.68)
 		)
 		(stroke
@@ -8042,16 +8050,6 @@
 			(type default)
 		)
 		(uuid "d9f7ac6b-14de-4197-98a0-132c07918120")
-	)
-	(wire
-		(pts
-			(xy 151.13 172.72) (xy 156.21 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "db484c26-7f63-4354-adba-f108e19185ba")
 	)
 	(wire
 		(pts
@@ -8145,6 +8143,16 @@
 	)
 	(wire
 		(pts
+			(xy 345.44 142.24) (xy 345.44 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0049950-cf65-4ee1-bc92-019a77fd4931")
+	)
+	(wire
+		(pts
 			(xy 177.8 55.88) (xy 162.56 55.88)
 		)
 		(stroke
@@ -8202,16 +8210,6 @@
 			(type default)
 		)
 		(uuid "f4c3d225-c020-43a2-bcc3-5d9d0ddc08ad")
-	)
-	(wire
-		(pts
-			(xy 163.83 172.72) (xy 163.83 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f62c4187-668e-4b56-8d7f-3b3ca139f8c0")
 	)
 	(wire
 		(pts
@@ -11035,86 +11033,6 @@
 			(project "kicad-pps"
 				(path "/3aaac0ed-0487-4b68-a13f-fe4577298336"
 					(reference "C15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 160.02 172.72 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "48d4bef4-b0ea-4e1a-bea1-227521ee9578")
-		(property "Reference" "C17"
-			(at 160.02 165.1 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100n"
-			(at 160.02 167.64 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_Tantal_D5.5mm_P2.50mm"
-			(at 163.83 171.7548 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 160.02 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 160.02 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e1f300ae-747f-4610-8e01-2b161d833b3f")
-		)
-		(pin "2"
-			(uuid "3597068a-3f88-48bb-8858-cfee927a766f")
-		)
-		(instances
-			(project "kicad-pps"
-				(path "/3aaac0ed-0487-4b68-a13f-fe4577298336"
-					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -16599,84 +16517,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 163.83 177.8 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "f5408766-fd4d-4ab2-8ca3-f3c6849aa3e5")
-		(property "Reference" "#PWR038"
-			(at 163.83 184.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 167.894 179.832 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 163.83 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 163.83 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 163.83 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ff726049-b88f-486f-8d9d-03aefd07b0f9")
-		)
-		(instances
-			(project "kicad-pps"
-				(path "/3aaac0ed-0487-4b68-a13f-fe4577298336"
-					(reference "#PWR038")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Audio:AudioJack4")
 		(at 313.69 158.75 0)
 		(mirror x)
@@ -17088,65 +16928,6 @@
 		(members "210d3ad4-5937-4fc3-9ff8-ee3cbaa55b59" "2dace836-d6a3-45bb-9d8e-ffaad772cf2e"
 			"3ef5bda3-ead2-46d4-9435-4c34b52fdfb4" "5ce5f624-f629-48f0-8c4d-2cbb865050d8"
 			"648e8045-f33a-4352-9d56-fdc6d9c270ce" "a3a50acb-8ec8-4281-bf1f-40d677abe033"
-		)
-	)
-	(group ""
-		(uuid "1cd00816-de67-4bb6-882c-b2efde5c04a3")
-		(members "017fec05-d663-4d99-8237-f50bf582cccf" "03322f5a-d2d8-4ddb-af43-5f40ffc27ca9"
-			"04a044b1-ed17-49e7-982c-0bb0bc15acf4" "07a955d2-1bea-4fe0-aed4-8d43e3ad52d5"
-			"083c9f43-0fa3-42d4-82b1-d39a114a13d3" "08779da4-6f29-469f-9186-ebc89284ebe1"
-			"109e5cff-84a3-4d76-83a0-08dc2a88dc0d" "11722344-2af5-47bc-9c8d-3740418839cc"
-			"13dfdc55-c5e0-418d-9c73-9c9e61a58953" "14fe87e5-a281-4c51-8d49-17da7a6572cf"
-			"15d25f7e-d76f-4e34-af53-121839bd76ff" "1c13b51d-1f87-4fc2-92ed-4e949b7be4cb"
-			"1dc69ffd-391a-4eae-9b1e-11b711dd4b61" "1e2a5bba-35ff-4a66-b1bd-a4ecfeccce85"
-			"21673a3b-9bac-45c2-a2d2-8fff4b59cc6b" "2c43d28c-ac3e-4313-b129-ded06015f301"
-			"335d41c6-199c-4596-9125-72e64e85c60b" "346bb973-18ac-487c-a706-2f080c8b2c13"
-			"34eaf2ff-c1f5-4614-bd2f-8f8ff8319500" "398a9290-2f42-4baa-a826-dd7d31e5234a"
-			"3a1aa045-6bcc-461d-ae57-d88ca87957f6" "3c3644d8-1984-49b7-92ab-e64e9a15cacb"
-			"40511883-16b2-41a0-b1a9-2252c813f9f5" "471a3a63-55d6-4d9c-b5d5-c201b71c10af"
-			"4a0bb750-95d2-470b-9eac-87b4b16ebd18" "4a5a81ef-947b-4e5f-bcb0-d77def41a1ba"
-			"4dfbe8ef-b9ad-4807-be2b-c1509458dffc" "4e75bfbe-3dcb-450a-8281-d000be54684c"
-			"4efe9f62-6b0a-48ab-b6fe-a982f0c8a3fd" "4f55ff27-4ab7-4864-806c-130f5714357a"
-			"502a1540-e368-4c6c-9730-29ca047ce7e2" "509e81ef-4822-4b1b-ab6a-99ef90cfe673"
-			"55ca66c7-b79f-44e4-a023-117bb5ab0698" "5603a98d-70d3-4a13-b822-3ea99e59dd04"
-			"58ae1ace-5033-48c0-962a-e1d951b84f04" "593f9f6f-3363-4196-a079-8ead022857ea"
-			"5a1d1944-ba7d-4175-b0cf-c66c5b395d0f" "6049cc1a-d524-4a16-a958-bda04da58ced"
-			"613071d2-b849-4615-8f87-6ac0ce31491c" "61f78a9c-bb47-4462-b944-469fc2aab5ea"
-			"65e1124b-19a8-499b-8fb3-5553d6c0732a" "65ec31d7-a021-408f-a0bc-10f7174c5275"
-			"66124ae8-15a6-4900-a192-dac2f70202c2" "663cb36f-2c22-4760-be79-f432adcb6022"
-			"66cb621c-1c58-476f-b664-ff0fa552d6d8" "66df9577-e972-4f88-924c-560fa3b5456d"
-			"6888f5f6-0fef-498c-8500-5313500d58d5" "68ed675e-862c-4c65-a26a-87e6adac08ba"
-			"69cd47a3-f1ba-436a-b0a1-0658ed3cfd74" "69e3c917-938f-43c0-b6e8-d771a591f90b"
-			"6bb21716-95dd-4d7d-8cea-3325f2968697" "6c2dfc6c-601b-470b-912d-73bb3f2c4300"
-			"6d56cf11-c6de-4385-9f7d-32fe55361ea8" "6f48cdbc-8999-49f1-9b0d-f119928522d6"
-			"7130b00f-0292-473d-b39a-cae5e93676e2" "7357c3fc-0f60-4999-ba37-95da9e54377b"
-			"743f3298-e79b-4f25-a04f-a1ab5dd8c1a9" "75578751-d912-426f-aa20-49e385d9732e"
-			"756ba22e-9e16-4a84-b9e8-258691af6dad" "7848ff28-aa65-42e8-8bf6-8a6afb91de55"
-			"79820f68-c2e5-419f-8b00-a9b25f48c7f7" "7abddfc1-2b2d-479c-90d8-be25876129a0"
-			"7bd00b0e-ad08-40ff-83aa-b6f2a26e8533" "80001ca7-c8cd-4a09-a6a0-3ae471b839e5"
-			"81b236c8-a362-4de8-8388-f90e688a3b6a" "849abadd-dbe5-4c54-a419-c83ef4db3ef8"
-			"866139d8-a6b9-461e-8df8-0e7b43a8beff" "871f44d1-e13c-43e3-8930-39770dd92f6e"
-			"8b0cdc7d-3a12-4119-a48e-25c2cd1e9e71" "9784d666-21bd-4e90-a81a-3b33807d4db4"
-			"9e5534f6-5699-4955-9084-2acc49d7882d" "9fa4c769-9853-4108-b59c-ff72cdbcc3d5"
-			"a0ea2b50-1bb1-4fb7-91f1-344e770611cb" "a507a2cf-57c6-4410-a231-8abb88d5809e"
-			"a584a2c4-738b-4128-908d-d12f8ad2d9fa" "a702f10e-21c1-475f-b7d9-a9951ba5e27c"
-			"aafac2f7-5c0e-4e4d-81b9-15bc5a011941" "afd7a7d3-2b49-48a8-b648-4992ff385f3d"
-			"b3e13418-b8af-4aa4-90ca-b6450ccba5f3" "b552dddd-19b9-49ce-a187-66cc53ff06e6"
-			"b652c9b4-6a52-4fba-bfca-0c9a5f204973" "bdced7a7-2430-48c6-8a12-0ce466b343c3"
-			"c28d662b-d373-48f4-ae95-a9aeeadac640" "c5b07c1e-8946-419a-80c1-b01ca98c8365"
-			"c621fc61-2159-4ec6-9a30-5f74717efa72" "c6821c53-0279-4379-a434-72cb6c4d35a0"
-			"c6887bad-1a59-4cb3-b3f4-14648a2303e4" "c8d64035-559e-4c82-90cf-03ba0e97e789"
-			"cad3af0b-2ea7-4e10-83d1-c4717726d020" "cd00e823-92e5-475f-92a2-753a5d00ec0a"
-			"d1c96cd2-bbf3-4e60-9a05-c59604b3f49a" "d7e9a8d4-2a50-45e2-a90d-e2bd8de08f85"
-			"d85da861-1cf4-4d8d-a795-41d62c594f78" "d87c1a64-a244-4832-9f19-da6756e04955"
-			"d89dee40-eb95-4eed-9840-ff524344cb5d" "d9d03994-c1b8-4491-8cd3-77eae751a255"
-			"d9f7ac6b-14de-4197-98a0-132c07918120" "da66dd0f-8ad9-4d27-9940-6bdcff4a14a4"
-			"dd5c7bcb-ee4e-4c8a-9e2a-0c076379b70e" "dd921686-048b-4854-8b7a-7e38a99db5cd"
-			"dfb4dea6-ac4c-4e89-9a0f-9e675d3bf988" "e412afaa-e4a2-4ab2-8ab6-f3ff3fd34858"
-			"e5ba0d23-6ecd-4d4b-821a-b5e75e6ed7bc" "e8267b9b-8454-4ad8-9548-0e2a9e01d294"
-			"f16a15c4-1564-4d8b-8062-d91b9af03c98" "f4c3d225-c020-43a2-bcc3-5d9d0ddc08ad"
-			"f6f69d36-888c-4dcf-9490-e90a95047c58" "f99896e0-8864-4bec-b3b0-a9ab8794059f"
-			"fc2a8690-49ce-40de-aeae-306b756360c9" "ffd1411e-f407-4369-96a6-f28c88a77f43"
 		)
 	)
 	(group ""
