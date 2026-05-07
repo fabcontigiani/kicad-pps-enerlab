@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.9,
-          "height": 2.0,
-          "width": 2.0
+          "drill": 0.3,
+          "height": 1.7,
+          "width": 1.7
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -132,7 +132,7 @@
         "max_error": 0.005,
         "min_clearance": 0.32,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.5,
+        "min_copper_edge_clearance": 1.0,
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.25,
@@ -197,7 +197,8 @@
         0.0,
         0.6,
         1.0,
-        1.5
+        1.5,
+        1.6
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -693,7 +694,7 @@
         "uuid": "3aaac0ed-0487-4b68-a13f-fe4577298336"
       }
     ],
-    "used_designators": "",
+    "used_designators": "J20,J23-24,TR4",
     "variants": []
   },
   "sheets": [
